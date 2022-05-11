@@ -1,0 +1,29 @@
+{
+    "name": "mproyyan/comet-core",
+    "description": "Core of comet framework",
+    "type": "project",
+    "authors": [
+        {
+            "name": "royyan",
+            "email": "mproyyan@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "require": {
+        "psr/container": "^2.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "Mproyyan\\Comet\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tests\\": "tests/"
+        }
+    }
+}
